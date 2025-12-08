@@ -39,7 +39,8 @@ export const CVVideo = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative w-full aspect-video rounded-2xl overflow-hidden border-2 border-slate-700 bg-slate-900/50">
+            <div className="relative w-full" style={{ aspectRatio: '16/9' }}>
+              <div className="relative w-full h-full rounded-2xl overflow-hidden border-2 border-slate-700 bg-slate-900/50">
               {/* Overlay décoratif */}
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/10 to-purple-600/10 pointer-events-none"></div>
               
@@ -71,7 +72,7 @@ export const CVVideo = () => {
               ) : null}
 
               <video
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
                 controls
                 autoPlay={isPlaying}
                 onPlay={() => setIsPlaying(true)}
@@ -82,6 +83,7 @@ export const CVVideo = () => {
                 <source src="/cv-video.webm" type="video/webm" />
                 Votre navigateur ne supporte pas la lecture de vidéos.
               </video>
+              </div>
             </div>
 
             {/* Badge vidéo */}
