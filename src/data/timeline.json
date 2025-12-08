@@ -1,0 +1,88 @@
+{
+  "timeline": [
+    {
+      "id": "education-current",
+      "year": "2022 - 2025",
+      "title": "Licence Multimédia",
+      "organization": "ISITCom Sousse",
+      "type": "education",
+      "description": "3ᵉ année de Licence en Multimédia - Spécialisation en développement web et design graphique.",
+      "highlights": [
+        "Développement web front-end & back-end",
+        "Design graphique et multimédia",
+        "Gestion de projets digitaux",
+        "Technologies modernes (React, PHP, Java)"
+      ]
+    },
+    {
+      "id": "club-google",
+      "year": "2023 - 2024",
+      "title": "Membre Google Club",
+      "organization": "ISITCom",
+      "type": "experience",
+      "description": "Participation active au Google Club de l'ISITCom - Collaboration sur des projets tech et partage de connaissances.",
+      "highlights": [
+        "Ateliers techniques réguliers",
+        "Projets collaboratifs",
+        "Veille technologique",
+        "Networking étudiant"
+      ]
+    },
+    {
+      "id": "club-securinets",
+      "year": "2023 - 2024",
+      "title": "Membre Securinets",
+      "organization": "Club Cybersécurité",
+      "type": "experience",
+      "description": "Participation au club Securinets - Formation et sensibilisation à la cybersécurité.",
+      "highlights": [
+        "Formations en cybersécurité",
+        "Participation à des CTF",
+        "Projets de sécurité informatique",
+        "Partage de bonnes pratiques"
+      ]
+    },
+    {
+      "id": "project-ecommerce",
+      "year": "2024",
+      "title": "Projet E-commerce",
+      "organization": "Projet Personnel",
+      "type": "project",
+      "description": "Développement complet d'un site e-commerce avec gestion avancée des produits et paiements.",
+      "highlights": [
+        "Stack : HTML, CSS, JS, PHP, MySQL",
+        "Architecture MVC",
+        "Panel d'administration",
+        "Sécurité et performances optimisées"
+      ]
+    },
+    {
+      "id": "project-vfx",
+      "year": "2023",
+      "title": "Court-métrage VFX",
+      "organization": "Projet Créatif",
+      "type": "project",
+      "description": "Réalisation et post-production d'un court-métrage avec effets visuels professionnels.",
+      "highlights": [
+        "Montage sur Premiere Pro",
+        "Effets visuels avancés",
+        "Colorimétrie professionnelle",
+        "Storytelling créatif"
+      ]
+    },
+    {
+      "id": "skills-development",
+      "year": "2022 - Présent",
+      "title": "Apprentissage Continu",
+      "organization": "Auto-formation",
+      "type": "education",
+      "description": "Formation continue en technologies web modernes et design graphique.",
+      "highlights": [
+        "React & écosystème moderne",
+        "TypeScript & outils avancés",
+        "Design systems & UI/UX",
+        "Veille technologique permanente"
+      ]
+    }
+  ]
+}

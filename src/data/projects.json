@@ -1,0 +1,100 @@
+{
+  "projects": [
+    {
+      "id": "ecommerce",
+      "title": "Site E-commerce Complet",
+      "category": "web",
+      "description": "Développement d'une plateforme e-commerce complète avec gestion des produits, panier d'achat, système de paiement et administration.",
+      "tags": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      "image": "/images/project-ecommerce.jpg",
+      "year": "2024",
+      "features": [
+        "Interface utilisateur responsive",
+        "Gestion de panier dynamique",
+        "Système d'authentification sécurisé",
+        "Panel d'administration complet",
+        "Base de données relationnelle"
+      ]
+    },
+    {
+      "id": "java-app",
+      "title": "Application Java Desktop",
+      "category": "app",
+      "description": "Développement d'une application de gestion avec interface graphique Swing, connexion base de données et fonctionnalités CRUD complètes.",
+      "tags": ["Java", "NetBeans", "SQL", "Swing"],
+      "image": "/images/project-java.jpg",
+      "year": "2024",
+      "features": [
+        "Interface graphique intuitive",
+        "Gestion des données CRUD",
+        "Connexion MySQL",
+        "Export de rapports",
+        "Système de recherche avancé"
+      ]
+    },
+    {
+      "id": "vfx-shortfilm",
+      "title": "Court-métrage VFX",
+      "category": "video",
+      "description": "Réalisation d'un court-métrage avec effets visuels professionnels, montage avancé et post-production créative sur Premiere Pro.",
+      "tags": ["Premiere Pro", "VFX", "Montage", "Post-production"],
+      "image": "/images/project-vfx.jpg",
+      "year": "2023",
+      "features": [
+        "Effets visuels créatifs",
+        "Colorimétrie professionnelle",
+        "Synchronisation audio",
+        "Animations graphiques",
+        "Storytelling visuel"
+      ]
+    },
+    {
+      "id": "portfolio-design",
+      "title": "Identités Visuelles",
+      "category": "design",
+      "description": "Création de plusieurs identités visuelles complètes : logos, chartes graphiques, supports de communication pour divers clients.",
+      "tags": ["Illustrator", "Photoshop", "Branding", "Design"],
+      "image": "/images/project-design.jpg",
+      "year": "2023-2024",
+      "features": [
+        "Logos vectoriels professionnels",
+        "Chartes graphiques complètes",
+        "Supports print et digital",
+        "Mockups réalistes",
+        "Concepts créatifs uniques"
+      ]
+    },
+    {
+      "id": "web-animations",
+      "title": "Interfaces Animées",
+      "category": "web",
+      "description": "Développement d'interfaces web modernes avec animations CSS/JS, micro-interactions et expériences utilisateur immersives.",
+      "tags": ["CSS3", "JavaScript", "Animations", "UX"],
+      "image": "/images/project-animations.jpg",
+      "year": "2024",
+      "features": [
+        "Animations CSS avancées",
+        "Micro-interactions fluides",
+        "Performance optimisée",
+        "Design responsive",
+        "Accessibilité web"
+      ]
+    },
+    {
+      "id": "mobile-ui",
+      "title": "Designs Mobile App",
+      "category": "design",
+      "description": "Conception d'interfaces mobiles modernes et ergonomiques avec prototypes interactifs et systèmes de design cohérents.",
+      "tags": ["UI Design", "UX", "Mobile", "Prototyping"],
+      "image": "/images/project-mobile.jpg",
+      "year": "2024",
+      "features": [
+        "Design systems complets",
+        "Prototypes interactifs",
+        "Guidelines ergonomiques",
+        "Wireframes détaillés",
+        "Designs adaptables"
+      ]
+    }
+  ]
+}
