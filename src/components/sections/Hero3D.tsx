@@ -15,18 +15,42 @@ export const Hero3D = () => {
       <div className="max-w-7xl mx-auto text-center z-10">
 
         {/* Image principale - STABLE, SANS EFFETS */}
-               <div className="mb-8 flex justify-center">
-          <img
-            src="/images/Untitled.png"
-            alt="Portrait de Sarra Hamila"
-            style={{
-              width: '400px',
-              height: '400px',
-              objectFit: 'cover',
-              borderRadius: '50%',
-              display: 'block'
-            }}
-          />
+        <div className="mb-8 flex justify-center relative">
+          {/* Cercle décoratif - masqué sur mobile */}
+          <div className="hidden md:block absolute inset-0 flex items-center justify-center">
+            <motion.div
+              animate={{
+                scale: [1, 1.1, 1],
+                opacity: [0.3, 0.5, 0.3],
+              }}
+              transition={{
+                duration: 4,
+                repeat: Infinity,
+                ease: 'easeInOut',
+              }}
+              className="absolute w-[450px] h-[450px] rounded-full bg-gradient-to-br from-cyan-500/20 via-purple-500/20 to-pink-500/20 blur-3xl"
+            />
+          </div>
+          
+          {/* Image avec bordure */}
+          <div className="relative z-10">
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.8, delay: 0.2 }}
+              className="relative"
+            >
+              <div className="absolute inset-0 rounded-full bg-gradient-to-br from-cyan-500/30 to-purple-600/30 blur-xl opacity-50"></div>
+              <img
+                src="/images/Untitled.png"
+                alt="Portrait de Sarra Hamila"
+                className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover border-4 border-slate-700/50 shadow-2xl"
+                style={{
+                  boxShadow: '0 0 40px rgba(6, 182, 212, 0.3)',
+                }}
+              />
+            </motion.div>
+          </div>
         </div>
 
 

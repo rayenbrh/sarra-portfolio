@@ -84,6 +84,7 @@ export const Navigation = () => {
 
   return (
     <nav
+      className="bg-slate-900/80 backdrop-blur-xl"
       style={{
         position: 'fixed',
         top: 0,
@@ -91,14 +92,20 @@ export const Navigation = () => {
         right: 0,
         zIndex: 50,
         transition: 'all 0.3s ease',
-        backgroundColor: isScrolled ? 'rgba(2, 6, 23, 0.98)' : 'transparent',
+        backgroundColor: isScrolled 
+          ? 'rgba(2, 6, 23, 0.98)' 
+          : 'rgba(2, 6, 23, 0.85)',
         backgroundImage: isScrolled 
-          ? 'linear-gradient(to right, rgba(8, 51, 68, 0.8), rgba(15, 23, 42, 0.8), rgba(67, 20, 85, 0.8))'
-          : 'none',
-        backdropFilter: isScrolled ? 'blur(16px) saturate(180%)' : 'none',
-        WebkitBackdropFilter: isScrolled ? 'blur(16px) saturate(180%)' : 'none',
-        borderBottom: isScrolled ? '1px solid rgba(6, 182, 212, 0.5)' : 'none',
-        boxShadow: isScrolled ? '0 10px 40px rgba(0, 0, 0, 0.7), 0 0 20px rgba(6, 182, 212, 0.4)' : 'none',
+          ? 'linear-gradient(to right, rgba(8, 51, 68, 0.9), rgba(15, 23, 42, 0.9), rgba(67, 20, 85, 0.9))'
+          : 'linear-gradient(to right, rgba(8, 51, 68, 0.7), rgba(15, 23, 42, 0.7), rgba(67, 20, 85, 0.7))',
+        backdropFilter: 'blur(20px) saturate(180%)',
+        WebkitBackdropFilter: 'blur(20px) saturate(180%)',
+        borderBottom: isScrolled 
+          ? '1px solid rgba(6, 182, 212, 0.5)' 
+          : '1px solid rgba(6, 182, 212, 0.2)',
+        boxShadow: isScrolled 
+          ? '0 10px 40px rgba(0, 0, 0, 0.7), 0 0 20px rgba(6, 182, 212, 0.4)' 
+          : '0 4px 20px rgba(0, 0, 0, 0.3)',
       }}
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
