@@ -1,15 +1,18 @@
 import { motion } from 'framer-motion';
 import { useInView } from '../../hooks/useInView';
-import { GraduationCap, Briefcase, Rocket } from 'lucide-react';
+import { GraduationCap, Briefcase, Rocket, LucideIcon } from 'lucide-react';
 import timelineData from '../../data/timeline.json';
+import { TimelineItem } from '../../types';
 
-const typeIcons = {
+type TimelineType = TimelineItem['type'];
+
+const typeIcons: Record<TimelineType, LucideIcon> = {
   education: GraduationCap,
   experience: Briefcase,
   project: Rocket,
 };
 
-const typeColors = {
+const typeColors: Record<TimelineType, string> = {
   education: 'from-blue-500 to-cyan-500',
   experience: 'from-purple-500 to-pink-500',
   project: 'from-cyan-500 to-teal-500',
@@ -45,7 +48,7 @@ export const Timeline = () => {
 
           {/* Items de timeline */}
           <div className="space-y-16">
-            {timelineData.timeline.map((item, index) => {
+            {(timelineData.timeline as TimelineItem[]).map((item, index) => {
               const Icon = typeIcons[item.type];
               const isLeft = index % 2 === 0;
 
